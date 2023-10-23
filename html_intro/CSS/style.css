@@ -37,3 +37,9 @@ div {
     text-align: left;
     font-size: 2em;
   }
+  .heading {
+    border: solid black 1px;
+  }
+  .image {
+    border: solid black 1px;
+  }
