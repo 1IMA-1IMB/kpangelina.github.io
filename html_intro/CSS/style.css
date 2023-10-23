@@ -1,0 +1,39 @@
+
+body {
+    background-color: rgb(120, 77, 190);
+  }
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2,5em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 3em;
+    text-align: center;
+}
+
+h3 {
+    font-size: 2em;
+    text-align: center;
+}
+p {
+    font-size: 2em;
+    text-align: center;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+ 
+div {
+    text-align: center;
+  }
+  
+  ul {
+    display: inline-block;
+    text-align: left;
+    font-size: 2em;
+  }
