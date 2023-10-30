@@ -1,0 +1,28 @@
+body {
+    background: solid rgb(100, 100, 206);
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.header {
+    background: rgb(250, 100, 170);
+    height: 20%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.middle {
+    background: rgb(117, 210, 229);
+    height:60%;
+    border: 1px solid black;
+
+
+}
+.footer {
+    background: rgb(223, 223, 83);
+    height: 20%;
+    border: 1px solid black;
+}
