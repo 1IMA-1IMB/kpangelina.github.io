@@ -1,0 +1,20 @@
+.header {
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+    display: flex;
+    height: 20%;
+}
+.middle-images {
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+img {
+    height: 200px;
+    width: 400px;
+    border: 1px solid black;
+}
