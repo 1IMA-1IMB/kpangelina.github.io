@@ -36,6 +36,41 @@ img {
     background-color: azure;
     padding: 2em;
 }
+.bottom-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    flex-direction: column;
+    width: 50%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: azure;
+    padding: 2em;
+}
+.image {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    
+}
+.image2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    
+}
+.image3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    
+}
 @media only screen and (max-width: 768px) {
     .main-container {
         display: flex;
@@ -63,4 +98,5 @@ img {
         align-items: center;
     }
   }
+
 
