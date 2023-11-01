@@ -7,14 +7,51 @@
     display: flex;
     height: 20%;
 }
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 .middle-images {
     height: 60%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin: 2em;
 }
 img {
     height: 200px;
     width: 400px;
     border: 1px solid black;
 }
+.middle-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    flex-direction: column;
+    width: 50%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: azure;
+    padding: 2em;
+}
+@media only screen and (max-width: 600px) {
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        justify-content:;
+    }
+
+    .middle-images {
+        flex-direction: column;
+        justify-content: space-between;
+        display: flex;
+        width: 200px;
+        height: 100px;
+    }
+    .middle-text {
+        display: flex;
+    }
+  }
+
