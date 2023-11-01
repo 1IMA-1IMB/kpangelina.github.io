@@ -7,7 +7,7 @@ body {
     height: 100vh;
 }
 .header {
-    background: rgb(250, 100, 170);
+    background: rgb(241, 127, 180);
     height: 20%;
     display: flex;
     justify-content: center;
@@ -18,7 +18,7 @@ body {
     background: rgb(117, 210, 229);
     height:60%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 1em;
 }
@@ -30,12 +30,13 @@ body {
     align-items: center;
 }
 .footer {
-    background: rgb(92, 83, 223);
+    background: rgb(125, 116, 255);
     height: 20%;
 }
 @media only screen and (max-width: 768px) {
 .middle {
     background: lightgreen;
+    flex-wrap: wrap;
 }
 .middle img {
     width: 100%;
