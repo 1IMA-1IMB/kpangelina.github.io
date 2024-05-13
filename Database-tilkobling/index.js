@@ -9,9 +9,9 @@ app.use(cors())
 var connection = mysql.createConnection({
   host: 'localhost',
   port: 3306,
-  user: 'johu',
-  password: 'dromtorp',
-  database: 'dromtorp'
+  user: 'root',
+  password: 'root',
+  database: 'angelinaka_skole'
 });
 
 connection.connect(function(err) {
@@ -24,6 +24,14 @@ connection.connect(function(err) {
   console.log('connected as id ' + connection.threadId);
 });
 
+
+connection.query('SELECT * FROM Elev', function (error, results, fields) {
+  if (error) throw error;
+  console.log(results)
+});
+
+
+/*
 app.get('/', (request, response) => {
     if (error) throw error;
     response.send(JSON.stringify('Hello World'))
@@ -37,4 +45,4 @@ app.get('/getallstudents', (request, response) => {
   });
 
   
-})
+}) */
