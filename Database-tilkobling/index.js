@@ -25,18 +25,10 @@ connection.connect(function(err) {
 });
 
 
-connection.query('SELECT * FROM Elev', function (error, results, fields) {
-  if (error) throw error;
-  console.log(results)
-});
-
-
-/*
 app.get('/', (request, response) => {
-    if (error) throw error;
     response.send(JSON.stringify('Hello World'))
 })
-*/
+
 
 app.get('/getallstudents', (request, response) => {
 
@@ -45,7 +37,6 @@ app.get('/getallstudents', (request, response) => {
     response.send(JSON.stringify(results));
   });
 
-  
 })
 
 app.listen(port, () => {
