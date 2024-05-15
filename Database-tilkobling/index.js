@@ -36,6 +36,7 @@ app.get('/', (request, response) => {
     if (error) throw error;
     response.send(JSON.stringify('Hello World'))
 })
+*/
 
 app.get('/getallstudents', (request, response) => {
 
@@ -45,4 +46,4 @@ app.get('/getallstudents', (request, response) => {
   });
 
   
-}) */
+})
